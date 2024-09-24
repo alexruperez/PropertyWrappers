@@ -1,0 +1,4 @@
+module Keychain {
+    header "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Keychain.build/Keychain-Swift.h"
+    requires objc
+}

@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/master.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Inject/Inject.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/Inject.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/Inject.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/Inject~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/Inject.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Inject/InjectError.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectError.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectError.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectError~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectError.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Inject/InjectStorage.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectStorage.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectStorage.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/InjectStorage.swiftdeps"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/master.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/DataConvertible.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DataConvertible.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DataConvertible.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DataConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DataConvertible.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/DelegatedStorage.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DelegatedStorage.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DelegatedStorage.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DelegatedStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/DelegatedStorage.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/Storage.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Storage.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Storage.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Storage~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Storage.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/StorageActor.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageActor.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageActor.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageActor~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageActor.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/StorageData.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageData.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageData.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageData~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageData.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/StorageDelegate.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageDelegate.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageDelegate.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/StorageDelegate.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Storage/Store.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Store.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Store.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Store~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Storage.build/Store.swiftdeps"
+  }
+}

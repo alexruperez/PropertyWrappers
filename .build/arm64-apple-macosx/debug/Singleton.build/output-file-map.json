@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/master.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Singleton/Singleton.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/Singleton.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/Singleton.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/Singleton~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/Singleton.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/Singleton/SingletonStorage.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/SingletonStorage.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/SingletonStorage.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/SingletonStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/SingletonStorage.swiftdeps"
+  }
+}

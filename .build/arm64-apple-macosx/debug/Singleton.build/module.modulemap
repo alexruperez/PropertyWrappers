@@ -1,0 +1,4 @@
+module Singleton {
+    header "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Singleton.build/Singleton-Swift.h"
+    requires objc
+}

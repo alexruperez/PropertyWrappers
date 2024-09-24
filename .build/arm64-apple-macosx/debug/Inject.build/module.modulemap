@@ -1,0 +1,4 @@
+module Inject {
+    header "/Users/vagrant/git/.build/arm64-apple-macosx/debug/Inject.build/Inject-Swift.h"
+    requires objc
+}

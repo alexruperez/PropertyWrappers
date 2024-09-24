@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/master.swiftdeps"
+  },
+  "/Users/vagrant/git/Tests/SecurePropertyStorageTests/InjectTests.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/InjectTests.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/InjectTests.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/InjectTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/InjectTests.swiftdeps"
+  },
+  "/Users/vagrant/git/Tests/SecurePropertyStorageTests/KeychainTests.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/KeychainTests.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/KeychainTests.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/KeychainTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/KeychainTests.swiftdeps"
+  },
+  "/Users/vagrant/git/Tests/SecurePropertyStorageTests/SingletonTests.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/SingletonTests.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/SingletonTests.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/SingletonTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/SingletonTests.swiftdeps"
+  },
+  "/Users/vagrant/git/Tests/SecurePropertyStorageTests/UserDefaultTests.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/UserDefaultTests.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/UserDefaultTests.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/UserDefaultTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/UserDefaultTests.swiftdeps"
+  },
+  "/Users/vagrant/git/Tests/SecurePropertyStorageTests/XCTestManifests.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/XCTestManifests.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStorageTests.build/XCTestManifests.swiftdeps"
+  }
+}

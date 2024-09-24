@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.build/master.swiftdeps"
+  },
+  "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.build/runner.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.build/runner.swiftdeps"
+  }
+}

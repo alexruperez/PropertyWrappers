@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/master.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/UserDefault/UserDefault.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefault.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefault.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefault~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefault.swiftdeps"
+  },
+  "/Users/vagrant/git/Sources/UserDefault/UserDefaultsStorage.swift": {
+    "dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefaultsStorage.d",
+    "object": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefaultsStorage.swift.o",
+    "swiftmodule": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefaultsStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/vagrant/git/.build/arm64-apple-macosx/debug/UserDefault.build/UserDefaultsStorage.swiftdeps"
+  }
+}

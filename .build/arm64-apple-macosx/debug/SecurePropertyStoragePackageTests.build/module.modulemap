@@ -1,0 +1,4 @@
+module SecurePropertyStoragePackageTests {
+    header "/Users/vagrant/git/.build/arm64-apple-macosx/debug/SecurePropertyStoragePackageTests.build/SecurePropertyStoragePackageTests-Swift.h"
+    requires objc
+}

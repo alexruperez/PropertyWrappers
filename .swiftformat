@@ -1,5 +1,0 @@
---exclude .build
---exclude .swiftpm
---swiftversion 6.0
---disable trailingCommas,wrapMultilineStatementBraces,unusedArguments
---ifdef noindent
