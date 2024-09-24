@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DelegatedStorage Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/DelegatedStorage" class="dashAnchor"></a>
+
+    <a title="DelegatedStorage Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SecurePropertyStorage Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/alexruperez/SecurePropertyStorage">
+            <img class="header-icon" src="../img/gh.png" alt="GitHub"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Falexruperez.github.io%2FSecurePropertyStorage%2Fdocsets%2FSecurePropertyStorage.xml">
+            <img class="header-icon" src="../img/dash.png" alt="Dash"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SecurePropertyStorage</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      <a class="breadcrumb" href="../Classes.html">Classes</a>
+      <img class="carat" src="../img/carat.png" alt=""/>
+      Storage.DelegatedStorage Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Actors/StorageActor.html">StorageActor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CodableKeychain.html">CodableKeychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CodableSingleton.html">CodableSingleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CodableStore.html">CodableStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CodableUserDefault.html">CodableUserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DelegatedStorage.html">DelegatedStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Inject.html">Inject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InjectPropertyWrapper.html">InjectPropertyWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InjectPropertyWrapper/Scope.html">– Scope</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InjectStorage.html">InjectStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InjectWith.html">InjectWith</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Keychain.html">Keychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/KeychainStorage.html">KeychainStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/KeychainStorageDelegate.html">KeychainStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Register.html">Register</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Singleton.html">Singleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SingletonStorage.html">SingletonStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SingletonStorageDelegate.html">SingletonStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Store.html">Store</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/StorePropertyWrapper.html">StorePropertyWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedCodableKeychain.html">UnwrappedCodableKeychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedCodableSingleton.html">UnwrappedCodableSingleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedCodableStore.html">UnwrappedCodableStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedCodableUserDefault.html">UnwrappedCodableUserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedInject.html">UnwrappedInject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedInjectWith.html">UnwrappedInjectWith</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedKeychain.html">UnwrappedKeychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedSingleton.html">UnwrappedSingleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedStore.html">UnwrappedStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UnwrappedUserDefault.html">UnwrappedUserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UserDefault.html">UserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UserDefaultsStorage.html">UserDefaultsStorage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/InjectError.html">InjectError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/KeychainError.html">KeychainError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/ContiguousBytes.html">ContiguousBytes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/OSStatus.html">OSStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SymmetricKey.html">SymmetricKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols.html#/c:@M@Inject@objc(pl)Mock">Mock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/Storage.html">Storage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/StorageData.html">StorageData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/StorageDelegate.html">StorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/StorePropertyWrapperProtocol.html">StorePropertyWrapperProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Inject18DependencyGroupKeya">DependencyGroupKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:6Inject9Qualifiera">Qualifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:7Storage0A12ErrorClosurea">StorageErrorClosure</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>DelegatedStorage</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">class</span> <span class="kt">DelegatedStorage</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/Storage.html">Storage</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Class with the main <code>CryptoKit</code> logic.</p>
+
+              <div class="slightly-smaller">
+                <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L8-L255">Show on GitHub</a>
+              </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage09DelegatedA0C8delegateAA0A8Delegate_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage09DelegatedA0C8delegateAA0A8Delegate_pSgvp">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code><a href="../Protocols/StorageDelegate.html">StorageDelegate</a></code> that stores <code><a href="../Protocols/StorageData.html">StorageData</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">public</span> <span class="k">let</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/StorageDelegate.html">StorageDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L10">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage09DelegatedA0C12errorClosureys5Error_pcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/errorClosure" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage09DelegatedA0C12errorClosureys5Error_pcSgvp">errorClosure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Error closure to handle <code><a href="../Protocols/StorageDelegate.html">StorageDelegate</a></code> errors.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="k">var</span> <span class="nv">errorClosure</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage0A12ErrorClosurea">StorageErrorClosure</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L14">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage09DelegatedA0C_12symmetricKey17authenticationTag12errorClosureAcA0A8Delegate_pSg_9CryptoKit09SymmetricD0VSg10Foundation4DataVSgys5Error_pcSgtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:symmetricKey:authenticationTag:errorClosure:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage09DelegatedA0C_12symmetricKey17authenticationTag12errorClosureAcA0A8Delegate_pSg_9CryptoKit09SymmetricD0VSg10Foundation4DataVSgys5Error_pcSgtcfc">init(_:<wbr>symmetricKey:<wbr>authenticationTag:<wbr>errorClosure:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a <code>DelegatedStorage</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/StorageDelegate.html">StorageDelegate</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+            <span class="nv">symmetricKey</span><span class="p">:</span> <span class="kt">SymmetricKey</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+            <span class="nv">authenticationTag</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+            <span class="nv">errorClosure</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage0A12ErrorClosurea">StorageErrorClosure</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>delegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Protocols/StorageDelegate.html">StorageDelegate</a></code> that stores <code><a href="../Protocols/StorageData.html">StorageData</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>symmetricKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A cryptographic key used to seal the message.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>authenticationTag</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Custom additional <code>Data</code> to be authenticated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Closure to handle <code><a href="../Protocols/StorageDelegate.html">StorageDelegate</a></code> errors.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L24-L32">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP8register8defaultsySDySSypG_tF"></a>
+                    <a name="//apple_ref/swift/Method/register(defaults:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP8register8defaultsySDySSypG_tF">register(defaults:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">defaults</span> <span class="nv">registrationDictionary</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L34-L41">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP5value6forKeyqd__SgSS_tlF"></a>
+                    <a name="//apple_ref/swift/Method/value(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP5value6forKeyqd__SgSS_tlF">value(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="n">value</span><span class="o">&lt;</span><span class="kt">V</span><span class="o">&gt;</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">V</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L43-L50">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage09DelegatedA0C6object6forKeyypSgSS_tKF"></a>
+                    <a name="//apple_ref/swift/Method/object(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage09DelegatedA0C6object6forKeyypSgSS_tKF">object(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the <code>NSCoding</code> conforming object associated with the specified <code><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">object</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A <code><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code> in storage.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L57-L63">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP9decodable6forKeyqd__SgSS_tSeRd__lF"></a>
+                    <a name="//apple_ref/swift/Method/decodable(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP9decodable6forKeyqd__SgSS_tSeRd__lF">decodable(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="n">decodable</span><span class="o">&lt;</span><span class="kt">D</span><span class="o">&gt;</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">D</span><span class="p">?</span> <span class="k">where</span> <span class="kt">D</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L65-L75">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP6string6forKeySSSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/string(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP6string6forKeySSSgSS_tF">string(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">string</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L77-L83">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP5array6forKeySayypGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/array(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP5array6forKeySayypGSgSS_tF">array(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">array</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L85-L87">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set6forKeyShys11AnyHashableVGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/set(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set6forKeyShys11AnyHashableVGSgSS_tF">set(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">AnyHashable</span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L89-L91">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP10dictionary6forKeySDySSypGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/dictionary(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP10dictionary6forKeySDySSypGSgSS_tF">dictionary(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">dictionary</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L93-L95">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP11stringArray6forKeySaySSGSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/stringArray(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP11stringArray6forKeySaySSGSgSS_tF">stringArray(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">stringArray</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L97-L99">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP7integer6forKeySiSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/integer(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP7integer6forKeySiSS_tF">integer(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">integer</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L101-L107">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP5float6forKeySfSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/float(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP5float6forKeySfSS_tF">float(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">float</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Float</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L109-L115">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP6double6forKeySdSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/double(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP6double6forKeySdSS_tF">double(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">double</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L117-L123">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP4bool6forKeySbSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/bool(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP4bool6forKeySbSS_tF">bool(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">bool</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L125-L131">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3url6forKey10Foundation3URLVSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/url(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3url6forKey10Foundation3URLVSgSS_tF">url(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">url</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URL</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L133-L138">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP4data6forKeyqd__SgSS_tAA0A4DataRd__lF"></a>
+                    <a name="//apple_ref/swift/Method/data(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP4data6forKeyqd__SgSS_tAA0A4DataRd__lF">data(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="n">data</span><span class="o">&lt;</span><span class="kt">D</span><span class="o">&gt;</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">D</span><span class="p">?</span> <span class="k">where</span> <span class="kt">D</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/StorageData.html">StorageData</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L140-L158">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyySi_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyySi_SStF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L160-L162">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyySf_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyySf_SStF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L164-L166">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyySd_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyySd_SStF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L168-L170">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyySb_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyySb_SStF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L172-L174">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyy10Foundation3URLVSg_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyy10Foundation3URLVSg_SStF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L176-L178">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyySS_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyySS_SStF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">string</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L180-L182">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set_6forKeyyqd__Sg_SStlF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set_6forKeyyqd__Sg_SStlF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="p">(</span><span class="n">some</span> <span class="kt">Any</span><span class="p">)?,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L184-L194">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage09DelegatedA0C3set6object6forKeyyypSg_SStKF"></a>
+                    <a name="//apple_ref/swift/Method/set(object:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage09DelegatedA0C3set6object6forKeyyypSg_SStKF">set(object:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the value of the specified <code><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code> to the specified <code>NSCoding</code> conforming object.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">object</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code>NSCoding</code> conforming object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code> with which to associate the value.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L202-L210">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP3set9encodable6forKeyySE_pSg_SStF"></a>
+                    <a name="//apple_ref/swift/Method/set(encodable:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP3set9encodable6forKeyySE_pSg_SStF">set(encodable:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">encodable</span><span class="p">:</span> <span class="kt">Encodable</span><span class="p">?,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L212-L223">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage0A8DelegateP3set_6forKeyyqd__Sg_SStKAA0A4DataRd__lF"></a>
+                    <a name="//apple_ref/swift/Method/set(_:forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage0A8DelegateP3set_6forKeyyqd__Sg_SStKAA0A4DataRd__lF">set(_:<wbr>forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="p">(</span><span class="n">some</span> <span class="kt"><a href="../Protocols/StorageData.html">StorageData</a></span><span class="p">)?,</span> <span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L225-L241">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7StorageAAP6remove6forKeyySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(forKey:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7StorageAAP6remove6forKeyySS_tF">remove(forKey:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="n">forKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L243-L249">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7Storage09DelegatedA0C4hashyS2SF"></a>
+                    <a name="//apple_ref/swift/Method/hash(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7Storage09DelegatedA0C4hashyS2SF">hash(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hash <code><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code> using SHA-512.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd"><a href="../Actors/StorageActor.html">@StorageActor</a></span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">hash</span><span class="p">(</span><span class="n">_</span> <span class="nv">key</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/alexruperez/SecurePropertyStorage/blob/master/Sources/Storage/DelegatedStorage.swift#L252-L254">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>Copyright (c) 2024 Alex Rupérez</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>

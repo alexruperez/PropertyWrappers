@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SecurePropertyStorage  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="SecurePropertyStorage  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          SecurePropertyStorage Docs
+        </a>
+         (100% documented)
+      </p>
+    
+      <div class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </div>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/alexruperez/SecurePropertyStorage">
+            <img class="header-icon" src="img/gh.png" alt="GitHub"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Falexruperez.github.io%2FSecurePropertyStorage%2Fdocsets%2FSecurePropertyStorage.xml">
+            <img class="header-icon" src="img/dash.png" alt="Dash"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">SecurePropertyStorage</a>
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Actors.html">Actors</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Actors/StorageActor.html">StorageActor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CodableKeychain.html">CodableKeychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CodableSingleton.html">CodableSingleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CodableStore.html">CodableStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CodableUserDefault.html">CodableUserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/DelegatedStorage.html">DelegatedStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Inject.html">Inject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/InjectPropertyWrapper.html">InjectPropertyWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/InjectPropertyWrapper/Scope.html">– Scope</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/InjectStorage.html">InjectStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/InjectWith.html">InjectWith</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Keychain.html">Keychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/KeychainStorage.html">KeychainStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/KeychainStorageDelegate.html">KeychainStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Register.html">Register</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Singleton.html">Singleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SingletonStorage.html">SingletonStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SingletonStorageDelegate.html">SingletonStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Store.html">Store</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/StorePropertyWrapper.html">StorePropertyWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedCodableKeychain.html">UnwrappedCodableKeychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedCodableSingleton.html">UnwrappedCodableSingleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedCodableStore.html">UnwrappedCodableStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedCodableUserDefault.html">UnwrappedCodableUserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedInject.html">UnwrappedInject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedInjectWith.html">UnwrappedInjectWith</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedKeychain.html">UnwrappedKeychain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedSingleton.html">UnwrappedSingleton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedStore.html">UnwrappedStore</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UnwrappedUserDefault.html">UnwrappedUserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UserDefault.html">UserDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UserDefaultsStorage.html">UserDefaultsStorage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/InjectError.html">InjectError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/KeychainError.html">KeychainError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/ContiguousBytes.html">ContiguousBytes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/OSStatus.html">OSStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/SymmetricKey.html">SymmetricKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols.html#/c:@M@Inject@objc(pl)Mock">Mock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/Storage.html">Storage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/StorageData.html">StorageData</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/StorageDelegate.html">StorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/StorePropertyWrapperProtocol.html">StorePropertyWrapperProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Inject18DependencyGroupKeya">DependencyGroupKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:6Inject9Qualifiera">Qualifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:7Storage0A12ErrorClosurea">StorageErrorClosure</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h1 id='secure-property-storage' class='heading'>🔐 Secure Property Storage</h1>
+
+<blockquote>
+<p>Helps you define secure storages for your properties using Swift <em>property wrappers</em>.</p>
+</blockquote>
+
+<p><a href="http://alexruperez.com"><img src="https://img.shields.io/badge/me-%40alexruperez-blue" alt="Twitter"></a>
+<a href="https://swift.org"><img src="https://img.shields.io/badge/swift-6-orange" alt="Swift"></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/alexruperez/SecurePropertyStorage" alt="License"></a>
+<a href="https://swift.org/package-manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg?style=flat" alt="Swift Package Manager"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage"></a>
+<a href="https://app.bitrise.io/app/4fed1af31836d3bc"><img src="https://app.bitrise.io/app/4fed1af31836d3bc/status.svg?token=bYImtoKj0hxqCxnORhdgyg&branch=master" alt="Bitrise"></a>
+<a href="https://codeclimate.com/github/alexruperez/SecurePropertyStorage/maintainability"><img src="https://api.codeclimate.com/v1/badges/bbf38ddca9a26703cefd/maintainability" alt="Maintainability"></a>
+<a href="https://codeclimate.com/github/alexruperez/SecurePropertyStorage/test_coverage"><img src="https://api.codeclimate.com/v1/badges/bbf38ddca9a26703cefd/test_coverage" alt="Test Coverage"></a>
+<a href="https://codecov.io/gh/alexruperez/SecurePropertyStorage"><img src="https://codecov.io/gh/alexruperez/SecurePropertyStorage/graph/badge.svg?token=T3NNtLnmsA" alt="codecov"></a>
+<a href="https://codebeat.co/projects/github-com-alexruperez-securepropertystorage-master"><img src="https://codebeat.co/badges/ee2372f0-2188-43c6-bf7b-f6860834096c" alt="codebeat badge"></a>
+<a href="https://app.codacy.com/gh/alexruperez/SecurePropertyStorage/dashboard"><img src="https://api.codacy.com/project/badge/Grade/53a23dd2feca4b7ca8357c918c7d49c9" alt="Quality"></a>
+<a href="https://alexruperez.github.io/SecurePropertyStorage"><img src="https://alexruperez.github.io/SecurePropertyStorage/badge.svg" alt="Documentation"></a></p>
+<h2 id='features' class='heading'>🌟 Features</h2>
+
+<p>All keys are hashed using <a href="https://en.wikipedia.org/wiki/SHA-2">SHA512</a> and all values are encrypted using <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>-<a href="https://en.wikipedia.org/wiki/Galois/Counter_Mode">GCM</a> to keep user information safe, auto*magic*ally.
+Symmetric key is stored in Keychain in a totally secure way.</p>
+<h2 id='basic-usage' class='heading'>🐒 Basic usage</h2>
+<h3 id='userdefault' class='heading'>@UserDefault</h3>
+
+<p>This property wrapper will store your property in <a href="https://developer.apple.com/documentation/foundation/userdefaults">UserDefaults</a> using <code><a href="Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code> (any <code>String</code> but i recommend you a String typed enum).
+Optionally, you can assign a default value to the property that will be secure stored at initialization.</p>
+<pre class="highlight swift"><code><span class="kd">@UserDefault(&lt;#StoreKey#&gt;)</span>
+<span class="k">var</span> <span class="nv">yourProperty</span><span class="p">:</span> <span class="kt">YourType</span><span class="p">?</span> <span class="o">=</span> <span class="n">yourDefaultValueIfNeeded</span>
+</code></pre>
+
+<p><a href="Sources/UserDefault/UserDefaultsStorage.swift"><code><a href="Classes/UserDefaultsStorage.html">UserDefaultsStorage</a></code></a> is also available, a subclass of <a href="https://developer.apple.com/documentation/foundation/userdefaults"><code>UserDefaults</code></a> with all the security provided by this library, where you can customize suite name.</p>
+<h3 id='keychain' class='heading'>@Keychain</h3>
+
+<p>This property wrapper will store your property in <a href="https://developer.apple.com/documentation/security/keychain_services">Keychain</a> using <code><a href="Typealiases.html#/s:7Storage8StoreKeya">StoreKey</a></code>.</p>
+<pre class="highlight swift"><code><span class="kd">@Keychain(&lt;#StoreKey#&gt;)</span>
+<span class="k">var</span> <span class="nv">yourProperty</span><span class="p">:</span> <span class="kt">YourType</span><span class="p">?</span> <span class="o">=</span> <span class="n">yourDefaultValueIfNeeded</span>
+</code></pre>
+
+<p>As <code><a href="Classes/UserDefaultsStorage.html">UserDefaultsStorage</a></code>, <a href="Sources/Keychain/KeychainStorage.swift"><code><a href="Classes/KeychainStorage.html">KeychainStorage</a></code></a> is also available, where you can customize access, group and synchronize it with iCloud.</p>
+<h3 id='singleton' class='heading'>@Singleton</h3>
+
+<p>This property wrapper will store your property in a memory <a href="https://en.wikipedia.org/wiki/Singleton_pattern">singleton</a>,  every property with the same wrapper and key can access or modify the value from wherever it is.</p>
+<pre class="highlight swift"><code><span class="kd">@Singleton(&lt;#StoreKey#&gt;)</span>
+<span class="k">var</span> <span class="nv">yourProperty</span><span class="p">:</span> <span class="kt">YourType</span><span class="p">?</span> <span class="o">=</span> <span class="n">yourDefaultValueIfNeeded</span>
+</code></pre>
+
+<p>As <code><a href="Classes/KeychainStorage.html">KeychainStorage</a></code>, <a href="Sources/Singleton/SingletonStorage.swift"><code><a href="Classes/SingletonStorage.html">SingletonStorage</a></code></a> is also available.</p>
+<h3 id='inject' class='heading'>@Inject</h3>
+
+<p>This property wrapper is similar to <code><a href="Classes/Singleton.html">@Singleton</a></code> but, together with <code><a href="Classes/Register.html">@Register</a></code>, will inject your dependencies. More details in <a href="#-dependency-injection-usage">Dependency Injection usage</a> guide.</p>
+<pre class="highlight swift"><code><span class="kd">@Inject</span>
+<span class="k">var</span> <span class="nv">yourDependency</span><span class="p">:</span> <span class="kt">YourProtocol</span><span class="p">?</span>
+</code></pre>
+
+<p>As <code><a href="Classes/SingletonStorage.html">SingletonStorage</a></code>, <a href="Sources/Inject/InjectStorage.swift"><code><a href="Classes/InjectStorage.html">InjectStorage</a></code></a> is also available.</p>
+<h3 id='store' class='heading'>@Store</h3>
+
+<p>This is a custom wrapper, you can define your own <a href="Sources/Storage/Storage.swift"><code><a href="Protocols/Storage.html">Storage</a></code></a> protocol implementation.</p>
+<pre class="highlight swift"><code><span class="kd">@Store(&lt;#YourStorage#&gt;, &lt;#StoreKey#&gt;)</span>
+<span class="k">var</span> <span class="nv">yourProperty</span><span class="p">:</span> <span class="kt">YourType</span><span class="p">?</span> <span class="o">=</span> <span class="n">yourDefaultValueIfNeeded</span>
+</code></pre>
+
+<p>As <code><a href="Classes/InjectStorage.html">InjectStorage</a></code>, <a href="Sources/Storage/DelegatedStorage.swift"><code><a href="Classes/DelegatedStorage.html">DelegatedStorage</a></code></a> is also available with all the magic of this library.</p>
+<h2 id='️-codable-usage' class='heading'>🧙‍♂️ Codable usage</h2>
+
+<p>If your property conforms <a href="https://developer.apple.com/documentation/swift/codable"><code>Codable</code></a> protocol, just add <code>Codable</code> keyword as prefix of your property wrapper.</p>
+
+<ul>
+<li><strong>@CodableUserDefault</strong></li>
+<li><strong>@CodableKeychain</strong></li>
+<li><strong>@CodableSingleton</strong></li>
+<li><strong>@CodableStore</strong></li>
+</ul>
+<h2 id='unwrapped-usage' class='heading'>🥡 Unwrapped usage</h2>
+
+<p>To avoid continually unwrapping your property, just add <code>Unwrapped</code> keyword as prefix of your property wrapper, assign a default value (mandatory except for <code><a href="Classes/UnwrappedInject.html">@UnwrappedInject</a></code>), and it will return stored value or default value, but your property will always be there for you.</p>
+
+<ul>
+<li><strong>@UnwrappedUserDefault</strong></li>
+<li><strong>@UnwrappedKeychain</strong></li>
+<li><strong>@UnwrappedSingleton</strong></li>
+<li><strong>@UnwrappedInject</strong></li>
+<li><strong>@UnwrappedStore</strong></li>
+</ul>
+<h2 id='️-combo-usage' class='heading'>🥡 + 🧙‍♂️ Combo usage</h2>
+
+<p>You can also combine previous cases in case you need it, unwrapped first please.</p>
+
+<ul>
+<li><strong>@UnwrappedCodableUserDefault</strong></li>
+<li><strong>@UnwrappedCodableKeychain</strong></li>
+<li><strong>@UnwrappedCodableSingleton</strong></li>
+<li><strong>@UnwrappedCodableStore</strong></li>
+</ul>
+<h2 id='dependency-injection-usage' class='heading'>💉 Dependency Injection usage</h2>
+
+<details>
+<summary><b>@Register</b> (<i>click to expand</i>)</summary>
+
+This property wrapper will register the implementations of your dependencies.
+Register them wherever you want before inject it, but be sure to do it only once (except if you use qualifiers), for example, in an `Injector` class.
+You can register through a protocol or directly using your class implementation.
+
+&ldquo;`swift
+@Register
+var yourDependency: YourProtocol = YourImplementation()
+
+@Register
+var yourDependency = YourImplementation()
+&rdquo;`
+
+You can also define a closure that builds your dependency.
+Just remember cast your dependency if you are going to inject it through a protocol.
+
+&ldquo;`swift
+@Register
+var yourDependency = {
+    YourImplementation() as YourProtocol
+}
+
+@Register
+var yourDependency = {
+    YourImplementation()
+}
+&rdquo;`
+
+You can also register your dependencies only after the moment someone tries to inject them and you haven&rsquo;t registered them yet,
+for this you can use the error closure.
+
+&ldquo;`swift
+InjectStorage.standard.errorClosure = { error in
+    if case InjectError.notFound = error {
+        YourImplementation.register()
+    }
+}
+&rdquo;`
+
+You can get this syntactic sugar because you can now use property wrappers in function parameters.
+
+&ldquo;`swift
+static func register(@Register yourDependency: YourProtocol = YourImplementation()) {}
+&rdquo;`
+
+</details>
+
+<details>
+<summary><b>@Inject</b> and <b>@UnwrappedInject</b> (<i>click to expand</i>)</summary>
+
+These property wrappers injects your dependencies `@Register` implementations.
+
+&ldquo;`swift
+@Inject
+var yourDependency: YourProtocol?
+
+@Inject
+var yourDependency: YourImplementation?
+
+@UnwrappedInject
+var yourUnwrappedDependency: YourProtocol
+
+@UnwrappedInject
+var yourUnwrappedDependency: YourImplementation
+&rdquo;`
+
+#### Scope
+
+Because these property wrappers works similarly to `@Singleton`, the default scope is `.singleton`, but if you use builder closures on `@Register`, you can modify them to inject a single instance.
+
+&ldquo;`swift
+@Inject(.instance)
+var yourDependency: YourProtocol?
+
+@UnwrappedInject(.instance)
+var yourUnwrappedDependency: YourProtocol
+&rdquo;`
+</details>
+
+<details>
+<summary><b>@InjectWith</b> and <b>@UnwrappedInjectWith</b> (<i>click to expand</i>)</summary>
+
+Your dependency may need parameters when injecting, you can pass them with these property wrappers.
+Simply define a model with your dependency parameters  and pass it.
+It will inject a new instance built with these parameters.
+
+&ldquo;`swift
+@Register
+var yourDependency = { parameters in
+    YourImplementation(parameters) as YourProtocol
+}
+
+@Inject(YourParameters())
+var yourDependency: YourProtocol?
+
+@UnwrappedInject(YourParameters())
+var yourUnwrappedDependency: YourProtocol
+&rdquo;`
+</details>
+
+<details>
+<summary><b>Qualifiers</b> (<i>click to expand</i>)</summary>
+
+You can use [qualifiers](https://javaee.github.io/tutorial/cdi-basic006.html) to provide various implementations of a particular dependency. A qualifier is just a `@objc protocol` that you apply to a `class`.
+
+For example, you could declare `Dog` and `Cat` qualifier protocols and apply it to another class that conforms `Animal` protocol. To declare this qualifier, use the following code:
+
+&ldquo;`swift
+protocol Animal {
+  func sound()
+}
+
+@objc protocol Dog {}
+
+@objc protocol Cat {}
+&rdquo;`
+
+You can then define multiple classes that conforms `Animal` protocol and uses this qualifiers:
+
+&ldquo;`swift
+class DogImplementation: Animal, Dog {
+    func sound() { print(&quot;Woof!&rdquo;) }
+}
+
+class CatImplementation: Animal, Cat {
+    func sound() { print(&ldquo;Meow!&rdquo;) }
+}
+&ldquo;`
+
+Both implementations of the class can now be `@Register`:
+
+&rdquo;`swift
+@Register
+var registerDog: Animal = DogImplementation()
+
+@Register
+var registerCat: Animal = CatImplementation()
+&ldquo;`
+
+To inject one or the other implementation, simply add the qualifier(s) to your `@Inject`:
+
+&rdquo;`swift
+@UnwrappedInject(Dog.self)
+var dog: Animal
+
+@UnwrappedInject(Cat.self)
+var cat: Animal
+
+dog.sound() // prints Woof!
+cat.sound() // prints Meow!
+&ldquo;`
+</details>
+
+<details>
+<summary><b>Testing</b> (<i>click to expand</i>)</summary>
+
+One of the advantages of dependency injection is that the code can be easily testable with mock implementation.
+That is why there is a `Mock` qualifier that has priority over all, so you can have your dependencies defined in the app and create your mock in the test target simply by adding this qualifier.
+
+&rdquo;`swift
+// App target
+
+class YourImplementation: YourProtocol {}
+
+@Register
+var yourDependency: YourProtocol = YourImplementation()
+
+@Inject
+var yourDependency: YourProtocol?
+&ldquo;`
+
+&rdquo;`swift
+// Test target
+
+class YourMock: YourProtocol, Mock {}
+
+@Register
+var yourDependency: YourProtocol = YourMock()
+&ldquo;`
+</details>
+
+<details>
+<summary><b>Groups</b> (<i>click to expand</i>)</summary>
+
+When you have **a lot** of dependencies in your app, you may want to optimize dependency resolution.
+
+You can group them using `@Register(group:)` and a `DependencyGroupKey`:
+
+&rdquo;`swift
+@Register(group: <#DependencyGroupKey#>)
+var yourDependency: YourProtocol = YourImplementation()
+&ldquo;`
+
+`@Inject(group:)` will look for those dependencies only in that group:
+
+&rdquo;`swift
+@Inject(group: <#DependencyGroupKey#>)
+var yourDependency: YourProtocol?
+&ldquo;`
+</details>
+<h2 id='examples' class='heading'>👀 Examples</h2>
+
+<blockquote>
+<p>Talk is cheap. Show me the code.</p>
+</blockquote>
+<pre class="highlight swift"><code>    <span class="c1">// Securely stored in UserDefaults.</span>
+    <span class="kd">@UserDefault("username")</span>
+    <span class="k">var</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span>
+
+    <span class="c1">// Securely stored in Keychain.</span>
+    <span class="kd">@Keychain("password")</span>
+    <span class="k">var</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span>
+
+    <span class="c1">// Securely stored in a Singleton storage.</span>
+    <span class="kd">@Singleton("sessionToken")</span>
+    <span class="k">var</span> <span class="nv">sessionToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span>
+
+    <span class="c1">// Securely stored in a Singleton storage.</span>
+    <span class="c1">// Always has a value, the stored or the default.</span>
+    <span class="kd">@UnwrappedSingleton("refreshToken")</span>
+    <span class="k">var</span> <span class="nv">refreshToken</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">"B0610306-A33F"</span>
+
+    <span class="kd">struct</span> <span class="kt">User</span><span class="p">:</span> <span class="kt">Codable</span> <span class="p">{</span>
+        <span class="k">let</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span>
+        <span class="k">let</span> <span class="nv">password</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span>
+        <span class="k">let</span> <span class="nv">sessionToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Codable model securely stored in UserDefaults.</span>
+    <span class="kd">@CodableUserDefault("user")</span>
+    <span class="k">var</span> <span class="nv">user</span><span class="p">:</span> <span class="kt">User</span><span class="p">?</span>
+</code></pre>
+<h2 id='compatibility' class='heading'>🛠 Compatibility</h2>
+
+<ul>
+<li>macOS 11.5+</li>
+<li>iOS 13.0+</li>
+<li>iPadOS 13.0+</li>
+<li>tvOS 13.0+</li>
+<li>watchOS 6.0+</li>
+<li>visionOS 1.0+</li>
+</ul>
+<h2 id='️-installation' class='heading'>⚙️ Installation</h2>
+<h4 id='you-can-use-the-a-href-https-github-com-apple-swift-package-manager-swift-package-manager-a-by-declaring-securepropertystorage-as-a-dependency-in-your-code-package-swift-code-file' class='heading'>You can use the <a href="https://github.com/apple/swift-package-manager">Swift Package Manager</a> by declaring SecurePropertyStorage as a dependency in your <code>Package.swift</code> file:</h4>
+<pre class="highlight swift"><code><span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/alexruperez/SecurePropertyStorage"</span><span class="p">,</span> <span class="nv">from</span><span class="p">:</span> <span class="s">"0.7.1"</span><span class="p">)</span>
+</code></pre>
+
+<p>By default, all property wrappers are installed and you can <code>import</code> them, but if you want, you can install only some of them:</p>
+
+<ul>
+<li><strong>UserDefault</strong>: @*UserDefault property wrappers.</li>
+<li><strong>Keychain</strong>: @*Keychain property wrappers.</li>
+<li><strong>Singleton</strong>: @*Singleton property wrappers.</li>
+<li><strong>Storage</strong>: @*Store property wrappers.</li>
+<li><strong>Inject</strong>: @*Inject property wrappers.</li>
+</ul>
+
+<p><em>For more information, see <a href="https://github.com/apple/swift-package-manager/tree/master/Documentation">the Swift Package Manager documentation</a>.</em></p>
+<h4 id='or-you-can-use-a-href-https-github-com-carthage-carthage-carthage-a' class='heading'>Or you can use <a href="https://github.com/Carthage/Carthage">Carthage</a>:</h4>
+<pre class="highlight plaintext"><code>github "alexruperez/SecurePropertyStorage"
+</code></pre>
+<h2 id='etc' class='heading'>🍻 Etc.</h2>
+
+<ul>
+<li>Featured in <a href="https://twitter.com/daveverwer">Dave Verwer</a>&rsquo;s iOS Dev Weekly - <a href="https://iosdevweekly.com/issues/450?#ll98q5s">Issue 450</a>, thanks Dave!</li>
+<li>Contributions are very welcome. Thanks <a href="https://github.com/AlbGarciam">Alberto Garcia</a>, <a href="https://github.com/Manu-Globant">Manu</a> and <a href="https://github.com/qchenqizhi">Chen</a>!</li>
+<li>Attribution is appreciated (let&rsquo;s spread the word!), but not mandatory.</li>
+</ul>
+<h2 id='author' class='heading'>👨‍💻 Author</h2>
+
+<p>Alex Rupérez – <a href="https://twitter.com/alexruperez">@alexruperez</a> – <a href="mailto:me@alexruperez.com">me@alexruperez.com</a></p>
+<h2 id='️-license' class='heading'>👮‍♂️ License</h2>
+
+<p><em>SecurePropertyStorage</em> is available under the MIT license. See the <a href="LICENSE">LICENSE</a> file for more info.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>Copyright (c) 2024 Alex Rupérez</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+    </section>
+  </body>
+</html>
